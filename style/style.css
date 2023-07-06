@@ -7,3 +7,17 @@
 body {
     background-color: rgba(0, 22, 50);
 }
+
+.row {
+    width: 70vw;
+    background-color: white;
+    border-radius: 0.9%;
+}
+
+h1 {
+    color: rgb(128, 139, 153);
+}
+
+h2 {
+    color: white;
+}
