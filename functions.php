@@ -24,7 +24,11 @@
                 $char = $baseString[$index];
                 $password.=$char;
             }
-            return $password;
+            //$result = $password;
+
+            session_start();
+            $_SESSION['password'] = $password;
+            header('Location: ./success.php');
         }
         return $result;
     }
