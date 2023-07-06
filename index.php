@@ -1,5 +1,6 @@
 <?php
-    function randomNumber($min, $max){
+    include __DIR__.'/functions.php';
+    /*function randomNumber($min, $max){
         return rand($min, $max);
     }
 
@@ -27,7 +28,7 @@
             return $password;
         }
         return $result;
-    }
+    }*/
 
     if(isset($_GET['length'])){
         $response = generatePassword($_GET['length']);
