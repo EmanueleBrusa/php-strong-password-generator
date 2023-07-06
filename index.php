@@ -57,12 +57,15 @@
                 <div class="col-12">
                     <form action="index.php" method="GET">
                         <div class="row">
-                            <div class="col-12">
-                            <label for="length" class="control-label">Lunghezza</label>
-                            <input type="number" id="length" name="length" placeholder="lunghezza" class="form-control">
+                            <div class="col-2 d-flex align-items-center">
+                                <label for="length" class="control-label mt-4">Lunghezza password:</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="number" id="length" name="length" placeholder="Lunghezza" class="form-control mt-4">
+                            </div>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="btn btn-success float-end mt-4">Invia</button>
+                                <button type="submit" class="btn btn-primary float-start mt-4 mb-4">Invia</button>
                             </div>
                         </div>
                     </form>

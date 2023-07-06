@@ -26,7 +26,7 @@
             </div>
             <div class="row text-center">
                 <div class="col-12">
-                <a href="./index.php" class="btn btn-info">Torna al generatore</a>
+                <a href="./index.php" class="btn btn-primary mb-4">Torna al generatore</a>
                 </div>
             </div>
         </div>
